@@ -1,0 +1,2 @@
+# Bookmarker
+This is a Bookmarker project that stores important sites for the user, as it stores them in the local storage of the user's device and does some logical functioning, such as making sure that the user entered the name and address of the site and returns an error message if the fields are empty and also checks if the name of the site already exists or not If it exists, it returns an error message and does not enter it again
