@@ -1,0 +1,28 @@
+h1{
+    color: #AAAAAA;
+    font-size:29.25px;
+    font-weight: 700;
+}
+.ftr h5{
+    color: #AAAAAA;
+    font-size:14px;
+    font-weight: 700;
+}
+.hr{
+    height: 1px;
+    width: 80%;
+    margin: 30px auto;
+    background-color: #999999;
+}
+.w-div{
+    color: #6D0000;
+    background-color: #FFB2B2;
+    border: #6D0000 solid 1px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

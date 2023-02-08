@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Bookmarker</title>
+        
+    </head>
+    <body>
+        <div class="w-75 pt-5 m-auto">
+            <h1>Bookmarker</h1>
+        </div>
+        <div class="hr"></div>
+        <div class="bookmarker text-center bg-light w-75 p-5 m-auto my-4">
+            <h2 class="mb-5">Bookmark your favorite sites</h2>
+            <h5>Site Name</h5>
+            <input id="bookmarkerName" placeholder="bookmarker Name" class="shadow form-control mx-auto my-4 w-75" type="text">
+            <div id="nameWarning" class="d-none w-75 m-auto my-2 w-div text-center">
+            </div>
+            <h5>Site URL</h5>
+            <input id="bookmarkerURL" placeholder="Website URL" class="shadow form-control mx-auto my-4 w-75" type="text">
+            <div id="urlWarning" class="d-none w-75 m-auto my-2 w-div text-center"></div>
+            <button onclick="addBm()" class="btn btn-primary">Submit</button>
+        </div>
+        <table class="table table-striped table-hover w-75 m-auto">
+            <thead id="tHead">
+
+            </thead>
+            <tbody id="tcontent">
+
+            </tbody>
+        </table>
+        <div class="hr"></div>
+        <div class="ftr w-75 pt-1 m-auto">
+            <h5>© 2019 Bookmarker Inc.</h5>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
